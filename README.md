@@ -3,6 +3,10 @@
 `mt-predictor` は実行中の Python プロセスのメモリをスキャンして、`random.random()` が次に出力する値を **完全に予測** するためのものです。  
 教育・研究・セキュリティ検証を目的としています。
 
+詳細は以下の記事で解説しています:
+
+https://zenn.dev/t3tra/articles/f3f9040788c790
+
 ## Features
 
 - CPython の `Mersenne Twister` の内部状態 (`mt[624]` + `index`)をメモリから直接解析
