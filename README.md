@@ -33,7 +33,7 @@ docker run -it --rm --cap-add=SYS_PTRACE --security-opt seccomp=unconfined mt-pr
 ```bash
 python3 victim.py &
 ```
-> `victim.py` は `os.getpid()` を出力した後、`time.sleep(10)` で 100 秒間スリープし `random.random()` の結果を出力します。
+> `victim.py` は `os.getpid()` を出力した後、`time.sleep(10)` で 10 秒間スリープし `random.random()` の結果を出力します。
 > `&` はバックグラウンドで実行するためのものです。
 
 ### 4. `mt-predictor` を実行
